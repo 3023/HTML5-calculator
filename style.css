@@ -1,0 +1,72 @@
+body {
+    background-color: grey;
+    
+}
+#calculator {
+    background-color: white;
+    width: 450px;
+    border: 1px solid black;
+    margin: 50px auto;
+    
+}
+#topsect {
+ 
+    width: 60%;
+    margin-left: 120px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#keys {
+    margin-left: 20px;
+    padding: 5px;
+}
+#nextrow {
+    margin: 0 70px; 
+}
+#zerorow {
+    margin: 0 135px; 
+}
+.normbutton {
+    width: 120px;
+    height: 75px;
+    padding: 10px;
+    font-size: 24px;
+    border-radius: 5px 5px;
+}
+input[type=text] {
+    width: 100%;
+    height: 50px;
+    font-size: 24px;
+    border-radius: 5px 5px;
+    margin: 0 auto;
+}
+#operators {
+ margin-left: 20px;   
+    padding: 5px;
+    float: left;
+    
+}
+#operators input[type=button] {
+    background-color: red;
+    color: white;
+    margin: 5px;
+}
+#keys input[type=button] {
+    margin: 5px;
+}
+#inputscreen {
+ border: 2px black;
+    border-radius: 5px 5px;
+    background-color: lightgray;
+    margin-top: 10px;
+}
+#clr {
+    height: 75px;
+    width: 75px;
+    background-color: black;
+    color: white;
+    font-size: 24pt;
+    margin-left: -90px;
+    margin-top: -60px;
+    float: left;
+}
